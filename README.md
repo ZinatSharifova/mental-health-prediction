@@ -1,6 +1,6 @@
 # mental-health-prediction
 This project applies machine learning techniques to real-world social survey data, based on variables commonly found in the Understanding Society study, to predict poor mental health risk.
-## 🧠 Dataset Description
+## Dataset Description
 **Understanding Society** is a longitudinal household survey that collects annual data on:
 - Mental and physical health
 - Socio-economic status
@@ -13,11 +13,11 @@ In this project:
 - The goal was to perform **cross-sectional analysis**, not longitudinal tracking
 - The target variable represents **binary mental health status** (Good vs Poor)
 
-> ⚠️ Note: The original dataset is not included in this repository due to size and data usage restrictions.
+> Note: The original dataset is not included in this repository due to size and data usage restrictions.
 
 ---
 
-## 🔧 Methodology
+## Methodology
 The following steps were applied:
 - Data preprocessing and feature engineering
 - Proper train/test split to avoid data leakage
@@ -38,7 +38,7 @@ Model performance was evaluated using:
 
 ---
 
-## 📈 Results
+## Results
 The LightGBM model achieved the highest performance in terms of ROC AUC and Gini coefficient, demonstrating strong predictive capability for identifying individuals at higher risk of poor mental health.
 
 Key visual outputs included:
